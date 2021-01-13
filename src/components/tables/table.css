@@ -1,0 +1,22 @@
+.table-wrapper{
+    border: 1px solid black;
+}
+.table-wrapper .table-header{
+    display: flex;
+}
+.table-wrapper .table-header h3{
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+    border-bottom: 2px solid rgb(231, 44, 44);
+}
+
+.table-wrapper .table-body .item-row{
+    display: flex;
+}
+    
+.table-wrapper .table-body .item-row div{
+    flex: 1;
+    padding-top: 15px;
+    border-bottom: 0.5px solid black;
+}
